@@ -70,7 +70,7 @@ It took out implementation 0.564 seconds to send and receive 1MB file (big.txt w
 
 
 
-## Internet Protocol (IP)
+# Internet Protocol (IP)
 ### How you build your abstractions for the IP layer and interfaces. What data structures do you have? How do your vhost and vrouter programs interact with your shared IP stack code?
 
 We represent each node in the stack in our protocol.go file with an IPstack struct, containing 3 elements: a NetworkLayer struct, a LinkLayer struct, and a string name.
